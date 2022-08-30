@@ -44,3 +44,9 @@ header{
 .navbar-brand{
     font-size: 4rem;
 }
+.hrInicio{
+    width: 40%;
+    display: inline-block;
+    margin:0px 30% 60px 30%;
+
+}
