@@ -17,7 +17,10 @@ footer{
 background-color: rgb(229, 130, 44);
 }
 
-
+.botonSubmit{
+    display: flex;
+    align-items: center;
+}
 
 .d-block{
     width: auto;
