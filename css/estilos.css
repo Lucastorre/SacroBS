@@ -1,58 +1,128 @@
-
-body{
+body {
     background-color: rgb(124, 122, 122);
+    font-size: 1rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
+    list-style-type: none;
 }
-footer{
+
+footer {
     background-color: rgb(105, 102, 102);
+    margin-right: 0px;
+    
 }
-.igbs{
+
+.igbs {
     height: 40px;
 }
 
-.navbar{
-background-color: rgb(229, 130, 44);
+.navbar {
+    background-color: rgb(229, 130, 44);
 }
 
-.botonSubmit{
+.botonSubmit {
     display: flex;
     align-items: center;
 }
 
-.d-block{
+.d-block {
     width: auto;
     height: 500px;
     max-height: 500px;
 }
-.galeria img{
+
+.galeria img {
     width: 100%;
     height: 250px;
     border-radius: 8px;
     box-shadow: 5px 10px 10px rgb(52, 51, 51);
 }
-.galeria img:hover{
+
+.galeria img:hover {
     border: 0.5px solid rgb(139, 136, 136);
 }
-.galeria .col-lg-4{
-    padding: 25px;
-    margin:0px
 
+.galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0px
 }
-.navbar{
+
+.navbar {
     align-items: center;
     height: 150px;
     font-size: 1.3rem;
     width: 100%;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 4rem;
 }
-.hrInicio{
+
+.hrInicio {
     width: 40%;
     display: inline-block;
-    margin:0px 30% 60px 30%;
+    margin: 0px 30% 60px 30%;
 
 }
+
+.imgNosotros {
+    height: 23rem;
+    width: auto;
+    border: 0
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+}
+
+.card {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    margin: 3%;
+}
+.btn-bg{
+    background-color: rgb(236, 112, 67);
+    color: white;
+}
+.variedades-galeria img{
+    margin:4%;
+    height: 250px;
+    width: auto;
+    border-radius: 8px;
+    
+}
+.variedades-galeria h1{
+    font-size:1.5rem;
+    text-align: center;
+    
+
+}
+.variedades-galeria select{
+    text-align: center;
+
+}
+.especificacionProd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:8%
+
+}
+.hrProd{
+    width: 30%;
+    display: inline-block;
+    margin: 30px 30% 15px 30%;
+
+}
+.especificacionProd p{
+    font-size: 1rem;
+}
+@media (max-width:768px){
+    .navbar{
+       margin-bottom: 30%;
+    }
+    }
